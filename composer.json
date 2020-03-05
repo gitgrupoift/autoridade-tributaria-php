@@ -1,0 +1,16 @@
+{
+    "name": "gitgrupoift/autoridade-tributaria-php",
+    "description": "PHP Classes para WSDL da Autoridade Tributária",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "ext-mbstring": "*",
+        "wsdltophp/packagebase": "~2.0",
+        "wsdltophp/wssecurity": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "IFT_DocTransportes\\": "./src/"
+        }
+    }
+}
